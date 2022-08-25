@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  /* text-align: center; */
+}
+header {
+  margin: 24px 0;
+  text-align: center;
+}
+main {
+  width: 500px;
+  margin: 0 auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
