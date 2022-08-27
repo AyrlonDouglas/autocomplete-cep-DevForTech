@@ -2,15 +2,19 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 header {
   margin: 24px 0;
   text-align: center;
+  color: rgb(98, 82, 236);
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 main {
-  width: 500px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 form {
   display: flex;
@@ -19,7 +23,12 @@ form {
   border: 1px solid rgb(147, 147, 147);
   padding: 1rem;
   border-radius: 1rem;
-  background-color: rgb(123, 207, 207);
+  background-color: rgb(98, 82, 236);
+  color: white;
+  width: 100%;
+  min-width: 300px;
+  max-width: 900px;
+  margin: 0 1rem;
 }
 input {
   width: 100%;
@@ -27,11 +36,9 @@ input {
   padding: 0.3rem;
 }
 label {
-  /* text-align: center; */
   margin: 0 auto;
   width: 40%;
-  /* width: fit-content; */
-  /* word-wrap: normal; */
+  font-weight: 700;
 }
 .wrapper-field {
   width: 100%;
@@ -41,9 +48,18 @@ label {
   border-radius: 1rem;
   gap: 0.1rem;
 }
+.wrapper-button {
+  display: flex;
+  justify-content: center;
+}
 button {
+  /* margin: 0 auto; */
   padding: 0.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
-  background-color: rgb(215, 253, 92);
+  background-color: rgb(38, 51, 237);
+  color: white;
+  font-weight: 700;
+  /* width: 50%; */
+  min-width: 200px;
 }
